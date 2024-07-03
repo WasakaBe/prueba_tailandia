@@ -1,0 +1,84 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "DescripcionCiudadIntent",
+          "samples": [
+            "describeme la ciudad",
+            "quiero saber sobre la ciudad",
+            "cuéntame sobre la ciudad"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "LugaresTuristicosIntent",
+          "samples": [
+            "dime lugares turísticos",
+            "lugares turísticos de la ciudad",
+            "quiero saber lugares turísticos"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ComidaTipicaIntent",
+          "samples": [
+            "qué comida típica hay",
+            "cuál es la comida típica",
+            "háblame de la comida típica"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TrajeTipicoIntent",
+          "samples": [
+            "qué traje típico hay",
+            "cuál es el traje típico",
+            "háblame del traje típico"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "PersonajesSobresalientesIntent",
+          "samples": [
+            "cuáles son los personajes sobresalientes",
+            "dime personajes sobresalientes",
+            "quiero saber personajes sobresalientes"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "musicaintent",
+          "samples": [
+            "Musica de londres",
+            "Pon musica de esa ciudad",
+            "musica de esa ciudad"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "londres meyer"
+    }
+  }
+}
